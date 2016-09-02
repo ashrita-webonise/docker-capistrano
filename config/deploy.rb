@@ -4,6 +4,7 @@ lock '3.6.1'
 set :application, 'my_cap_app'
 set :repo_url, 'https://github.com/ashrita-webonise/docker-capistrano.git'
 set :branch, 'master'
+set :deploy_to, '$HOME/deployment/my_cap_app'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
